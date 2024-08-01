@@ -1,8 +1,9 @@
 {
   "name": "rabbit-participant",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A rabbitMQ participant (consumer/producer) easy manager ",
-  "main": "./dist/index.js",
+  "main": "./dist/manager.js",
+  "types": "./dist/manager.d.ts",
   "scripts": {
     "build": "npx tsc"
   },
