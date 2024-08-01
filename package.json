@@ -1,0 +1,23 @@
+{
+  "name": "rabbit-participant",
+  "version": "1.0.0",
+  "description": "A rabbitMQ participant (consumer/producer) easy manager ",
+  "main": "./dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/viperh/RabbitMQParticipant.git"
+  },
+  "keywords": [
+    "rabbitmq",
+    "participant"
+  ],
+  "author": "qviperh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/viperh/RabbitMQParticipant/issues"
+  },
+  "homepage": "https://github.com/viperh/RabbitMQParticipant#readme"
+}
