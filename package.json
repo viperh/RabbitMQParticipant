@@ -4,7 +4,7 @@
   "description": "A rabbitMQ participant (consumer/producer) easy manager ",
   "main": "./dist/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "npx tsc"
   },
   "repository": {
     "type": "git",
@@ -19,5 +19,12 @@
   "bugs": {
     "url": "https://github.com/viperh/RabbitMQParticipant/issues"
   },
-  "homepage": "https://github.com/viperh/RabbitMQParticipant#readme"
+  "homepage": "https://github.com/viperh/RabbitMQParticipant#readme",
+  "dependencies": {
+    "amqplib": "^0.10.4"
+  },
+  "devDependencies": {
+    "@types/amqplib": "^0.10.5",
+    "@types/node": "^22.0.2"
+  }
 }
