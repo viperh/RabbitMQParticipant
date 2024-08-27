@@ -4,3 +4,4 @@
 
 <p>The participant can be either consumer or producer, it has both functionalities of sending message and consuming from queues.</p>
 
+<p>Free to use.</p>
